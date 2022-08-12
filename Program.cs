@@ -7,3 +7,13 @@ for (int i = 0; i < StringMass.Length; i++)
 Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
 Console.ReadKey();
 }
+
+for (int i = 0; i < StringMass.Length; i++)
+{
+    if (StringMass[i].Length <= 3)
+    {
+        Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
+        Console.ReadKey();
+    }
+
+}
