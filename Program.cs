@@ -11,46 +11,10 @@ Console.ReadKey();
 /*
 for (int i = 0; i < StringMass.Length; i++)
 {
-    if (StringMass[i].Length <= 3)
-    {
-        Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
-        Console.ReadKey();
-    }
-
-}
-*/
-
-var list = new List<int>();
-for (int i = 0; i < StringMass.Length; i++)
-{
-    if (StringMass[i].Length <= 3)
-    {   
-        list.Add(i);
-        Console.WriteLine(list[i]);
-    }
-
-}
-
-///////////////////////////////////////
-/*
-for (int i = 0; i < StringMass.Length; i++)
-{
-    if (StringMass[i].Length <= 3)
-    {   list.Add(i);
-        Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
-        Console.ReadKey();
-    }
-
-}
-
-///////////////////////////////////////////////////////
-*/
-
-/*for (int i = 0; i < StringMass.Length; i++)
-{
 Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
 Console.ReadKey();
 }
+*/
 
 for (int i = 0; i < StringMass.Length; i++)
 {
@@ -61,4 +25,17 @@ for (int i = 0; i < StringMass.Length; i++)
     }
 
 }
-*/
+
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+          if (StringMass[i].Length <= 3)
+    {
+        Console.Write($"{array[i]} ");
+    }
+   
+}
+}
+PrintArray(StringMass);
