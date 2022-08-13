@@ -15,7 +15,7 @@ Console.WriteLine("SM[{0}] = {1}", i, StringMass[i]);
 Console.ReadKey();
 }
 */
-
+/*
 for (int i = 0; i < StringMass.Length; i++)
 {
     if (StringMass[i].Length <= 3)
@@ -25,7 +25,7 @@ for (int i = 0; i < StringMass.Length; i++)
     }
 
 }
-
+*/
 
 void PrintArray(string[] array)
 {
